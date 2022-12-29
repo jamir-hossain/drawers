@@ -1,0 +1,20 @@
+{
+  "name": "drawers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ENV NODE_ENV=development webpack",
+		"build": "ENV NODE_ENV=production webpack build --production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "drawers"
+  ],
+  "author": "Jamir Hossain",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
